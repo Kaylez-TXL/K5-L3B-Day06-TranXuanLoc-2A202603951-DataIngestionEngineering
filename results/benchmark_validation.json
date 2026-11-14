@@ -1,0 +1,17 @@
+{
+  "questions": 20,
+  "splits": {
+    "dev": 15,
+    "test": 5
+  },
+  "filter_questions": 4,
+  "test_filter_questions": 1,
+  "evidence_checks": "passed",
+  "split_lock": "passed",
+  "human_review": {
+    "status": "confirmed",
+    "reviewer": "Trần Xuân Lộc",
+    "scope": "20 questions, expected answers and source evidence",
+    "confirmation_source": "Author confirmation in chat"
+  }
+}

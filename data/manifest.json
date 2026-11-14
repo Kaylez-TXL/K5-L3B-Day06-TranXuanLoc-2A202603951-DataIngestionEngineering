@@ -1,0 +1,415 @@
+{
+  "source_id": "auag-thesis-2026",
+  "title": "Nghiên cứu quang phổ của hạt nano lõi–vỏ Au@Ag và ứng dụng học máy trong dự đoán đặc tính quang học",
+  "author": "Trần Xuân Lộc",
+  "source_path_or_url": "data/raw/22022101_TranXuanLoc.pdf",
+  "license_or_permission": "Tôi là Trần Xuân Lộc, tác giả đồ án này và người thực hiện bài thực hành Data Ingestion Engineering. Tôi sử dụng đồ án của mình làm corpus cho bài nộp; các tài liệu và hình ảnh tham khảo vẫn giữ nguồn trích dẫn trong đồ án.",
+  "accessed_at": "2026-11-14T11:26:00.553783+07:00",
+  "sha256": "d2722db99785d9bc3b39c358d0eda38a24e69774fa9f37415c5536a82b4b2ff9",
+  "physical_page_count": 70,
+  "included_page_count": 54,
+  "counting_rule": "Toàn bộ phần nội dung chính, trang PDF vật lý 12–65; giữ trang có hình/bảng. Loại trang đầu 1–11 và tài liệu tham khảo 66–70. Không áp ngưỡng 1500 ký tự của nguồn không phân trang lên PDF.",
+  "pages": [
+    {
+      "page_id": "auag-thesis-2026:p012",
+      "page": 12,
+      "char_count": 2718,
+      "chapter": 1
+    },
+    {
+      "page_id": "auag-thesis-2026:p013",
+      "page": 13,
+      "char_count": 1705,
+      "chapter": 1
+    },
+    {
+      "page_id": "auag-thesis-2026:p014",
+      "page": 14,
+      "char_count": 1830,
+      "chapter": 2
+    },
+    {
+      "page_id": "auag-thesis-2026:p015",
+      "page": 15,
+      "char_count": 1716,
+      "chapter": 2
+    },
+    {
+      "page_id": "auag-thesis-2026:p016",
+      "page": 16,
+      "char_count": 1886,
+      "chapter": 2
+    },
+    {
+      "page_id": "auag-thesis-2026:p017",
+      "page": 17,
+      "char_count": 2591,
+      "chapter": 2
+    },
+    {
+      "page_id": "auag-thesis-2026:p018",
+      "page": 18,
+      "char_count": 2596,
+      "chapter": 2
+    },
+    {
+      "page_id": "auag-thesis-2026:p019",
+      "page": 19,
+      "char_count": 2602,
+      "chapter": 2
+    },
+    {
+      "page_id": "auag-thesis-2026:p020",
+      "page": 20,
+      "char_count": 2511,
+      "chapter": 2
+    },
+    {
+      "page_id": "auag-thesis-2026:p021",
+      "page": 21,
+      "char_count": 2122,
+      "chapter": 2
+    },
+    {
+      "page_id": "auag-thesis-2026:p022",
+      "page": 22,
+      "char_count": 1528,
+      "chapter": 3
+    },
+    {
+      "page_id": "auag-thesis-2026:p023",
+      "page": 23,
+      "char_count": 1616,
+      "chapter": 3
+    },
+    {
+      "page_id": "auag-thesis-2026:p024",
+      "page": 24,
+      "char_count": 1422,
+      "chapter": 3
+    },
+    {
+      "page_id": "auag-thesis-2026:p025",
+      "page": 25,
+      "char_count": 1571,
+      "chapter": 3
+    },
+    {
+      "page_id": "auag-thesis-2026:p026",
+      "page": 26,
+      "char_count": 2286,
+      "chapter": 3
+    },
+    {
+      "page_id": "auag-thesis-2026:p027",
+      "page": 27,
+      "char_count": 2122,
+      "chapter": 3
+    },
+    {
+      "page_id": "auag-thesis-2026:p028",
+      "page": 28,
+      "char_count": 1718,
+      "chapter": 3
+    },
+    {
+      "page_id": "auag-thesis-2026:p029",
+      "page": 29,
+      "char_count": 1975,
+      "chapter": 3
+    },
+    {
+      "page_id": "auag-thesis-2026:p030",
+      "page": 30,
+      "char_count": 1831,
+      "chapter": 3
+    },
+    {
+      "page_id": "auag-thesis-2026:p031",
+      "page": 31,
+      "char_count": 2105,
+      "chapter": 3
+    },
+    {
+      "page_id": "auag-thesis-2026:p032",
+      "page": 32,
+      "char_count": 2491,
+      "chapter": 3
+    },
+    {
+      "page_id": "auag-thesis-2026:p033",
+      "page": 33,
+      "char_count": 2440,
+      "chapter": 3
+    },
+    {
+      "page_id": "auag-thesis-2026:p034",
+      "page": 34,
+      "char_count": 1609,
+      "chapter": 3
+    },
+    {
+      "page_id": "auag-thesis-2026:p035",
+      "page": 35,
+      "char_count": 2313,
+      "chapter": 3
+    },
+    {
+      "page_id": "auag-thesis-2026:p036",
+      "page": 36,
+      "char_count": 2499,
+      "chapter": 3
+    },
+    {
+      "page_id": "auag-thesis-2026:p037",
+      "page": 37,
+      "char_count": 2021,
+      "chapter": 3
+    },
+    {
+      "page_id": "auag-thesis-2026:p038",
+      "page": 38,
+      "char_count": 1143,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p039",
+      "page": 39,
+      "char_count": 2477,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p040",
+      "page": 40,
+      "char_count": 1072,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p041",
+      "page": 41,
+      "char_count": 2758,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p042",
+      "page": 42,
+      "char_count": 2606,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p043",
+      "page": 43,
+      "char_count": 446,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p044",
+      "page": 44,
+      "char_count": 2746,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p045",
+      "page": 45,
+      "char_count": 2651,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p046",
+      "page": 46,
+      "char_count": 2154,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p047",
+      "page": 47,
+      "char_count": 1174,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p048",
+      "page": 48,
+      "char_count": 253,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p049",
+      "page": 49,
+      "char_count": 224,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p050",
+      "page": 50,
+      "char_count": 1282,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p051",
+      "page": 51,
+      "char_count": 1456,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p052",
+      "page": 52,
+      "char_count": 1260,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p053",
+      "page": 53,
+      "char_count": 864,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p054",
+      "page": 54,
+      "char_count": 1109,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p055",
+      "page": 55,
+      "char_count": 1793,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p056",
+      "page": 56,
+      "char_count": 1183,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p057",
+      "page": 57,
+      "char_count": 1814,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p058",
+      "page": 58,
+      "char_count": 979,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p059",
+      "page": 59,
+      "char_count": 486,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p060",
+      "page": 60,
+      "char_count": 2624,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p061",
+      "page": 61,
+      "char_count": 2431,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p062",
+      "page": 62,
+      "char_count": 2467,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p063",
+      "page": 63,
+      "char_count": 2332,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p064",
+      "page": 64,
+      "char_count": 461,
+      "chapter": 4
+    },
+    {
+      "page_id": "auag-thesis-2026:p065",
+      "page": 65,
+      "char_count": 2266,
+      "chapter": 5
+    }
+  ],
+  "excluded_pages": [
+    {
+      "page": 1,
+      "reason": "front_matter"
+    },
+    {
+      "page": 2,
+      "reason": "front_matter"
+    },
+    {
+      "page": 3,
+      "reason": "front_matter"
+    },
+    {
+      "page": 4,
+      "reason": "front_matter"
+    },
+    {
+      "page": 5,
+      "reason": "front_matter"
+    },
+    {
+      "page": 6,
+      "reason": "front_matter"
+    },
+    {
+      "page": 7,
+      "reason": "front_matter"
+    },
+    {
+      "page": 8,
+      "reason": "front_matter"
+    },
+    {
+      "page": 9,
+      "reason": "front_matter"
+    },
+    {
+      "page": 10,
+      "reason": "front_matter"
+    },
+    {
+      "page": 11,
+      "reason": "front_matter"
+    },
+    {
+      "page": 66,
+      "reason": "references"
+    },
+    {
+      "page": 67,
+      "reason": "references"
+    },
+    {
+      "page": 68,
+      "reason": "references"
+    },
+    {
+      "page": 69,
+      "reason": "references"
+    },
+    {
+      "page": 70,
+      "reason": "references"
+    }
+  ],
+  "metadata_provenance": {
+    "chapter": "Chapter headings and table of contents checked against physical page boundaries. Integer 1–5.",
+    "language": "Vietnamese source text; vi."
+  },
+  "normalization": "Unicode NFC, horizontal whitespace, remove soft hyphens/zero-width spaces and standalone leading printed page number; preserve line breaks. No guessed word or equation repair.",
+  "limitations": [
+    "Text extraction does not interpret figures.",
+    "PDF line breaks are not reliable paragraph boundaries.",
+    "Some Vietnamese words contain internal extraction spaces.",
+    "Repeated section number 4.1.1; use chapter as the initial filter, not section number as a unique ID."
+  ]
+}

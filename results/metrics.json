@@ -1,0 +1,279 @@
+{
+  "run_at": "2026-11-14T11:26:21.309950+07:00",
+  "retrieval": {
+    "A": {
+      "dev": {
+        "n": 15,
+        "hit1_count": 11,
+        "hit3_count": 14,
+        "hit1": 0.7333333333333333,
+        "hit3": 0.9333333333333333
+      },
+      "test": {
+        "n": 5,
+        "hit1_count": 3,
+        "hit3_count": 3,
+        "hit1": 0.6,
+        "hit3": 0.6
+      }
+    },
+    "B": {
+      "dev": {
+        "n": 15,
+        "hit1_count": 12,
+        "hit3_count": 13,
+        "hit1": 0.8,
+        "hit3": 0.8666666666666667
+      },
+      "test": {
+        "n": 5,
+        "hit1_count": 1,
+        "hit3_count": 1,
+        "hit1": 0.2,
+        "hit3": 0.2
+      }
+    },
+    "C": {
+      "dev": {
+        "n": 15,
+        "hit1_count": 12,
+        "hit3_count": 13,
+        "hit1": 0.8,
+        "hit3": 0.8666666666666667
+      },
+      "test": {
+        "n": 5,
+        "hit1_count": 1,
+        "hit3_count": 1,
+        "hit1": 0.2,
+        "hit3": 0.2
+      }
+    }
+  },
+  "resources": {
+    "A": {
+      "chunk_count": 237,
+      "characters": 107485,
+      "min_chars": 58,
+      "mean_chars": 453.52320675105483,
+      "max_chars": 500,
+      "tokens": 32631,
+      "max_tokens": 224,
+      "ingest_seconds": 7.912372100000084,
+      "reingest_seconds": 0.2044410000003154,
+      "reingest_count": 237,
+      "embedding_reused_from": null,
+      "api_cost": 0
+    },
+    "B": {
+      "chunk_count": 268,
+      "characters": 98333,
+      "min_chars": 4,
+      "mean_chars": 366.9141791044776,
+      "max_chars": 500,
+      "tokens": 29888,
+      "max_tokens": 218,
+      "ingest_seconds": 7.205236100000093,
+      "reingest_seconds": 0.2755546999997023,
+      "reingest_count": 268,
+      "embedding_reused_from": null,
+      "api_cost": 0
+    },
+    "C": {
+      "chunk_count": 268,
+      "characters": 98333,
+      "min_chars": 4,
+      "mean_chars": 366.9141791044776,
+      "max_chars": 500,
+      "tokens": 29888,
+      "max_tokens": 218,
+      "ingest_seconds": 0.15020849999973507,
+      "reingest_seconds": 0.3100757000001977,
+      "reingest_count": 268,
+      "embedding_reused_from": "B",
+      "api_cost": 0
+    }
+  },
+  "config": {
+    "A": {
+      "chunking": "fixed_size",
+      "size": 500,
+      "overlap": 50,
+      "filter": false
+    },
+    "B": {
+      "chunking": "by_paragraph",
+      "size": 500,
+      "overlap": 0,
+      "filter": false
+    },
+    "C": {
+      "chunking": "by_paragraph",
+      "size": 500,
+      "overlap": 0,
+      "filter": true
+    }
+  },
+  "model": "intfloat/multilingual-e5-small",
+  "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "dimensions": 384,
+  "device": "cpu",
+  "document_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "normalization": "unit L2",
+  "max_tokens": 512,
+  "python": "3.14.6",
+  "packages": {
+    "sentence-transformers": "6.3.0",
+    "transformers": "5.23.0",
+    "torch": "2.15.0",
+    "pypdf": "6.21.4",
+    "psycopg": "3.3.8",
+    "python-dotenv": "1.2.4"
+  },
+  "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+  "pgvector": "0.8.7",
+  "search": "exact cosine; SQL filter before rank; no ANN index",
+  "total_seconds": 27.406101200000194,
+  "api_cost": 0,
+  "cost_note": "Local CPU inference; excludes electricity, hardware, network and human time.",
+  "durability_check": "independent connection counts passed",
+  "manual_audit_status": "90/90 author-confirmed; author reported completing manual review of all rows",
+  "selected_strategy": "A",
+  "metadata_checks": {
+    "A": {
+      "metadata_auto_correct": 15,
+      "metadata_records": 15,
+      "filter_questions": 1,
+      "filter_compliant": 1,
+      "note": "Checks requested filter even for A/B which deliberately do not apply it; manual review still required."
+    },
+    "B": {
+      "metadata_auto_correct": 15,
+      "metadata_records": 15,
+      "filter_questions": 1,
+      "filter_compliant": 1,
+      "note": "Checks requested filter even for A/B which deliberately do not apply it; manual review still required."
+    },
+    "C": {
+      "metadata_auto_correct": 15,
+      "metadata_records": 15,
+      "filter_questions": 1,
+      "filter_compliant": 1,
+      "note": "Checks requested filter even for A/B which deliberately do not apply it; manual review still required."
+    }
+  },
+  "verification": {
+    "evaluation_edge_cases": "passed: incomplete quote, wrong page, normalized whitespace, alternate evidence, top-3 aggregation",
+    "store_integration": "passed with separate temporary strategy and real stored E5 vector: obsolete-chunk deletion, chapter filter match/mismatch, rollback on constraint failure, invalid-vector rejection; temporary rows removed",
+    "limitation": "Integration smoke check, not a concurrency or performance stress test."
+  },
+  "audit_method": "Codex supplied initial labels/reasons. Trần Xuân Lộc manually reviewed and edited scores, then explicitly confirmed all rows in chat. Scores and reasons in the edited CSV were preserved; reviewer/status normalized on that confirmation. Source checks and strict retrieval proxy remain separate.",
+  "manual_audit": {
+    "A": {
+      "coherence": {
+        "expected": 10,
+        "confirmed": 10,
+        "confirmed_mean": 0.9,
+        "labelled_mean_including_proposals": 0.9,
+        "labelled_distribution_including_proposals": {
+          "0": 1,
+          "1": 9,
+          "2": 0
+        }
+      },
+      "grounding": {
+        "expected": 5,
+        "confirmed": 5,
+        "confirmed_mean": 1.8,
+        "labelled_mean_including_proposals": 1.8,
+        "labelled_distribution_including_proposals": {
+          "0": 0,
+          "1": 1,
+          "2": 4
+        }
+      },
+      "metadata": {
+        "expected": 15,
+        "confirmed": 15,
+        "confirmed_mean": 1.0,
+        "labelled_mean_including_proposals": 1.0,
+        "labelled_distribution_including_proposals": {
+          "0": 0,
+          "1": 15
+        }
+      }
+    },
+    "B": {
+      "coherence": {
+        "expected": 10,
+        "confirmed": 10,
+        "confirmed_mean": 0.9,
+        "labelled_mean_including_proposals": 0.9,
+        "labelled_distribution_including_proposals": {
+          "0": 1,
+          "1": 9,
+          "2": 0
+        }
+      },
+      "grounding": {
+        "expected": 5,
+        "confirmed": 5,
+        "confirmed_mean": 1.6,
+        "labelled_mean_including_proposals": 1.6,
+        "labelled_distribution_including_proposals": {
+          "0": 0,
+          "1": 2,
+          "2": 3
+        }
+      },
+      "metadata": {
+        "expected": 15,
+        "confirmed": 15,
+        "confirmed_mean": 1.0,
+        "labelled_mean_including_proposals": 1.0,
+        "labelled_distribution_including_proposals": {
+          "0": 0,
+          "1": 15
+        }
+      }
+    },
+    "C": {
+      "coherence": {
+        "expected": 10,
+        "confirmed": 10,
+        "confirmed_mean": 0.9,
+        "labelled_mean_including_proposals": 0.9,
+        "labelled_distribution_including_proposals": {
+          "0": 1,
+          "1": 9,
+          "2": 0
+        }
+      },
+      "grounding": {
+        "expected": 5,
+        "confirmed": 5,
+        "confirmed_mean": 1.6,
+        "labelled_mean_including_proposals": 1.6,
+        "labelled_distribution_including_proposals": {
+          "0": 0,
+          "1": 2,
+          "2": 3
+        }
+      },
+      "metadata": {
+        "expected": 15,
+        "confirmed": 15,
+        "confirmed_mean": 1.0,
+        "labelled_mean_including_proposals": 1.0,
+        "labelled_distribution_including_proposals": {
+          "0": 0,
+          "1": 15
+        }
+      }
+    }
+  },
+  "audit_consistency_notes": [
+    "Author resolved both discrepancies: B/C coherence page-12=1; B/C grounding q16=1. Identical content has consistent ratings."
+  ]
+}

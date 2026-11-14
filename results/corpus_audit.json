@@ -1,0 +1,39 @@
+{
+  "document_id": "auag-thesis-2026",
+  "included_pages": 54,
+  "normalized_characters": 98335,
+  "empty_body_pages": 0,
+  "warnings": [
+    {
+      "page": 43,
+      "kind": "short_text_visual_review",
+      "char_count": 446,
+      "note": "Retained. May be figure-heavy; extracted text does not describe graph pixels."
+    },
+    {
+      "page": 48,
+      "kind": "short_text_visual_review",
+      "char_count": 253,
+      "note": "Retained. May be figure-heavy; extracted text does not describe graph pixels."
+    },
+    {
+      "page": 49,
+      "kind": "short_text_visual_review",
+      "char_count": 224,
+      "note": "Retained. May be figure-heavy; extracted text does not describe graph pixels."
+    },
+    {
+      "page": 59,
+      "kind": "short_text_visual_review",
+      "char_count": 486,
+      "note": "Retained. May be figure-heavy; extracted text does not describe graph pixels."
+    },
+    {
+      "page": 64,
+      "kind": "short_text_visual_review",
+      "char_count": 461,
+      "note": "Retained. May be figure-heavy; extracted text does not describe graph pixels."
+    }
+  ],
+  "status": "Text extraction checked; figures/tables and benchmark evidence require visual/manual verification."
+}

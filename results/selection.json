@@ -1,0 +1,77 @@
+{
+  "strategy": "A",
+  "selected_before_test": true,
+  "rule": "dev Hit@3, dev Hit@1, lower measured ingest time",
+  "dev_metrics": {
+    "A": {
+      "dev": {
+        "n": 15,
+        "hit1_count": 11,
+        "hit3_count": 14,
+        "hit1": 0.7333333333333333,
+        "hit3": 0.9333333333333333
+      },
+      "test": {
+        "n": 0,
+        "hit1_count": 0,
+        "hit3_count": 0,
+        "hit1": null,
+        "hit3": null
+      }
+    },
+    "B": {
+      "dev": {
+        "n": 15,
+        "hit1_count": 12,
+        "hit3_count": 13,
+        "hit1": 0.8,
+        "hit3": 0.8666666666666667
+      },
+      "test": {
+        "n": 0,
+        "hit1_count": 0,
+        "hit3_count": 0,
+        "hit1": null,
+        "hit3": null
+      }
+    },
+    "C": {
+      "dev": {
+        "n": 15,
+        "hit1_count": 12,
+        "hit3_count": 13,
+        "hit1": 0.8,
+        "hit3": 0.8666666666666667
+      },
+      "test": {
+        "n": 0,
+        "hit1_count": 0,
+        "hit3_count": 0,
+        "hit1": null,
+        "hit3": null
+      }
+    }
+  },
+  "config": {
+    "A": {
+      "chunking": "fixed_size",
+      "size": 500,
+      "overlap": 50,
+      "filter": false
+    },
+    "B": {
+      "chunking": "by_paragraph",
+      "size": 500,
+      "overlap": 0,
+      "filter": false
+    },
+    "C": {
+      "chunking": "by_paragraph",
+      "size": 500,
+      "overlap": 0,
+      "filter": true
+    }
+  },
+  "benchmark_sha256": "39e166653d1a5b21639faf221154afe4696b2a5ca304bd0919c608c8a2c73148",
+  "frozen_at": "2026-11-14T11:26:21.120668+07:00"
+}

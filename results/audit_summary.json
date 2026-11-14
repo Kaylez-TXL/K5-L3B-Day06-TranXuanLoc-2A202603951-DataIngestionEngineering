@@ -1,0 +1,104 @@
+{
+  "A": {
+    "coherence": {
+      "expected": 10,
+      "confirmed": 10,
+      "confirmed_mean": 0.9,
+      "labelled_mean_including_proposals": 0.9,
+      "labelled_distribution_including_proposals": {
+        "0": 1,
+        "1": 9,
+        "2": 0
+      }
+    },
+    "grounding": {
+      "expected": 5,
+      "confirmed": 5,
+      "confirmed_mean": 1.8,
+      "labelled_mean_including_proposals": 1.8,
+      "labelled_distribution_including_proposals": {
+        "0": 0,
+        "1": 1,
+        "2": 4
+      }
+    },
+    "metadata": {
+      "expected": 15,
+      "confirmed": 15,
+      "confirmed_mean": 1.0,
+      "labelled_mean_including_proposals": 1.0,
+      "labelled_distribution_including_proposals": {
+        "0": 0,
+        "1": 15
+      }
+    }
+  },
+  "B": {
+    "coherence": {
+      "expected": 10,
+      "confirmed": 10,
+      "confirmed_mean": 0.9,
+      "labelled_mean_including_proposals": 0.9,
+      "labelled_distribution_including_proposals": {
+        "0": 1,
+        "1": 9,
+        "2": 0
+      }
+    },
+    "grounding": {
+      "expected": 5,
+      "confirmed": 5,
+      "confirmed_mean": 1.6,
+      "labelled_mean_including_proposals": 1.6,
+      "labelled_distribution_including_proposals": {
+        "0": 0,
+        "1": 2,
+        "2": 3
+      }
+    },
+    "metadata": {
+      "expected": 15,
+      "confirmed": 15,
+      "confirmed_mean": 1.0,
+      "labelled_mean_including_proposals": 1.0,
+      "labelled_distribution_including_proposals": {
+        "0": 0,
+        "1": 15
+      }
+    }
+  },
+  "C": {
+    "coherence": {
+      "expected": 10,
+      "confirmed": 10,
+      "confirmed_mean": 0.9,
+      "labelled_mean_including_proposals": 0.9,
+      "labelled_distribution_including_proposals": {
+        "0": 1,
+        "1": 9,
+        "2": 0
+      }
+    },
+    "grounding": {
+      "expected": 5,
+      "confirmed": 5,
+      "confirmed_mean": 1.6,
+      "labelled_mean_including_proposals": 1.6,
+      "labelled_distribution_including_proposals": {
+        "0": 0,
+        "1": 2,
+        "2": 3
+      }
+    },
+    "metadata": {
+      "expected": 15,
+      "confirmed": 15,
+      "confirmed_mean": 1.0,
+      "labelled_mean_including_proposals": 1.0,
+      "labelled_distribution_including_proposals": {
+        "0": 0,
+        "1": 15
+      }
+    }
+  }
+}

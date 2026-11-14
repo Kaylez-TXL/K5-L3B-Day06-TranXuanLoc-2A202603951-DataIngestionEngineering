@@ -1,0 +1,104 @@
+{
+  "benchmark_sha256": "39e166653d1a5b21639faf221154afe4696b2a5ca304bd0919c608c8a2c73148",
+  "dev_ids": [
+    "q01",
+    "q02",
+    "q03",
+    "q04",
+    "q05",
+    "q06",
+    "q07",
+    "q08",
+    "q09",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15"
+  ],
+  "test_ids": [
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20"
+  ],
+  "created_before_retrieval": true,
+  "selection_rule": "Tôi chọn cấu hình có Evidence Hit@3 trên dev cao nhất; nếu bằng nhau, ưu tiên Hit@1 dev, sau đó thời gian ingest thấp hơn. Tôi cố định cấu hình trước khi chạy test.",
+  "split_method": "Tôi chia câu hỏi theo nhóm chủ đề trong cùng đồ án: dev gồm tổng quan, phương pháp và chỉ số huấn luyện; test gồm đánh đổi khe hở, thiên lệch lấy mẫu, ngoại suy và học chuyển giao. Các chủ đề vẫn có thể giao nhau; đây không phải phép kiểm tra trên tài liệu độc lập.",
+  "review_status": "Em đã kiểm tra đủ 20 câu hỏi, đáp án và bằng chứng theo tài liệu; xác nhận trong chat sau khi hoàn tất audit. Bộ câu hỏi và split được giữ nguyên từ trước retrieval.",
+  "alternative_evidence_policy": "Tôi chấp nhận bằng chứng tương đương có nguồn sau khi kiểm chứng và ghi lại lý do; áp dụng cùng nhãn cho mọi cấu hình. Không đổi câu hỏi test để cải thiện điểm.",
+  "coherence_sampling": {
+    "selection_rule": "Before retrieval: first non-heading text line of each of the first 10 included physical PDF pages (12–21). Use the same source character offset for all strategies. Choose a chunk containing that offset; if overlap creates several, choose greatest end offset, then smallest start offset. Keep all candidates for traceability.",
+    "anchors": [
+      {
+        "document_id": "auag-thesis-2026",
+        "page": 12,
+        "char_offset": 17,
+        "source_excerpt": "Trong bối cảnh khoa học và công ngh ệ hiện đại, nhu cầu phát triển các hệ thống"
+      },
+      {
+        "document_id": "auag-thesis-2026",
+        "page": 13,
+        "char_offset": 0,
+        "source_excerpt": "Song song với đó, một thách thức không thể bỏ qua trong quá trình nghiên cứu và"
+      },
+      {
+        "document_id": "auag-thesis-2026",
+        "page": 14,
+        "char_offset": 107,
+        "source_excerpt": "Hạt nano là các v ật liệu có kích thước trong khoảng từ 1 đến 100 nm, được phân"
+      },
+      {
+        "document_id": "auag-thesis-2026",
+        "page": 15,
+        "char_offset": 0,
+        "source_excerpt": "Hình 2.1. Hiện tượng thay đổi màu sắc của chiếc cốc Lycurgus dưới ánh sáng phản xạ (xanh"
+      },
+      {
+        "document_id": "auag-thesis-2026",
+        "page": 16,
+        "char_offset": 38,
+        "source_excerpt": "Quá trình tổng hợp hạt nano là một quy trình phức tạp, do đó tồn tại một loạt các"
+      },
+      {
+        "document_id": "auag-thesis-2026",
+        "page": 17,
+        "char_offset": 0,
+        "source_excerpt": "chính xác khi nói đến khả năng bẩm sinh để điều chỉnh các chức năng bề mặt nhằm đáp"
+      },
+      {
+        "document_id": "auag-thesis-2026",
+        "page": 18,
+        "char_offset": 0,
+        "source_excerpt": "bắt đầu tương tác với nhau thông qua trường điện từ gần (near-field coupling), làm xuất"
+      },
+      {
+        "document_id": "auag-thesis-2026",
+        "page": 19,
+        "char_offset": 0,
+        "source_excerpt": "với nhau và với nền đế, trong khi nanocube sở hữu các mặt phẳng song song, cho phép"
+      },
+      {
+        "document_id": "auag-thesis-2026",
+        "page": 20,
+        "char_offset": 0,
+        "source_excerpt": "lâm sàng, công nghệ này cho phép phát hiện các dấu ấn sinh học, kháng nguyên, kháng"
+      },
+      {
+        "document_id": "auag-thesis-2026",
+        "page": 21,
+        "char_offset": 0,
+        "source_excerpt": "Perceptron – MLP), Mạng nơ-ron tích chập (Convolutional Neural Network – CNN), và"
+      }
+    ],
+    "human_labels": "confirmed: 30/30 coherence rows reviewed by Trần Xuân Lộc; see results/manual_audit.csv"
+  },
+  "author_review": {
+    "status": "confirmed",
+    "reviewer": "Trần Xuân Lộc",
+    "scope": "20 questions, expected answers and source evidence",
+    "confirmation_source": "Author confirmation in chat"
+  }
+}
